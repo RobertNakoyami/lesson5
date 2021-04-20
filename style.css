@@ -1,0 +1,211 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background: rgba(77,191,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,191,254,1)), color-stop(100%, rgba(55,143,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbffe', endColorstr='#378fd9', GradientType=1 );
+	padding-top: 66px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer-img {
+	max-width: 550px;
+	width: 100%;
+}
+
+.offer {
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	margin-top: 149px;
+
+}
+
+.offer-title {
+	width: 487px;
+	font-size : 37px;
+	margin-bottom: 48px;
+}
+
+.offer-title span {
+	font-size : 59px;
+}
+
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 21px;
+}
+
+.btn {
+	display: block;
+	width: 222px;
+	font-family: 'Montsserrat', sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+	padding: 17px 0;
+	background: #ffd429;
+	text-align: center;
+}
+
+.ahead-of {
+	padding-top: 108px;
+	padding-bottom: 83px;
+}
+
+.ahead-title {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 74px;
+}
+
+.all {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.free-time {
+	background: url('img/free-time.png') no-repeat top center;
+	padding-top: 70px;
+}
+
+.free-text {
+	font-size: 19px;
+}
+
+.travels {
+	background: url('img/travel.png') no-repeat top center;
+	padding-top: 70px;
+}
+
+.launch {
+	background: url('img/launch.png') no-repeat top center;
+	padding-top: 70px;
+}
+
+.forms {
+	padding-top: 105px;
+	background: #ecf3f8;
+	padding-bottom: 102px;
+}
+
+.forms-title {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	margin-bottom: 57px;
+}
+
+.input {
+	width: 343px;
+	height: 48px;
+	margin: 0 auto;
+	border-radius: 3px;
+	border: 1px solid #bbbbbb;
+	margin: 15px auto;
+	display: block;
+	padding-left: 24px;
+	max-width: 220px
+}
+
+.form-btn {
+	background: #ffd429;
+	width: 369px;
+	max-width: 220px;
+	border: none;
+	margin: 0 auto;
+}
+
+.footer {
+	background: #164d7a;
+	padding: 30px; 
+}
+
+.footer-text {
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+		flex-wrap: all;
+	}
+	p {
+		width: auto;
+		width: 100%;
+	}
+
+	.offer-title {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	
+	.container {
+		width: 768px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.btn {
+		margin: 0 auto;
+	}
+	.offer-img {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.all {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.input {
+		height: 90%;
+	}
+}
